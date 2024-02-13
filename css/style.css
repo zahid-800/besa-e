@@ -158,7 +158,11 @@ li a .fa-bag-shopping {
         padding-left: 1rem;
     }
 }
-
+@media(max-width:991px){
+   .container{
+    max-width: 100%;
+   }
+}
 @media(max-width:576px) {
     .mobile_navbar {
         width: 100%;
